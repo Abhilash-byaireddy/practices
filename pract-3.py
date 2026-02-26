@@ -1,4 +1,3 @@
-"""
 for i in range(1,21):
     print(i,end=" ")
 print()
@@ -13,11 +12,12 @@ for i in range(1,21):
         print(i,end=" ")
 print()
 
+
 for i in range(1,11):
     print(i**2,end=" ")
 print()
 
-
+# Factorial
 
 num =int(input("Enter a number: "))
 r=1
@@ -26,7 +26,7 @@ for i in range(1,num+1):
 print(r,end=" ")
 
 
-
+# Prime number
 
 nums=int(input("Enter a number: "))
 if nums>1:
@@ -38,17 +38,15 @@ if nums>1:
         print(nums,"is a prime number")
 
 
+# Palindrome
 
 n=(input("Enter a number: "))
 print(n[::-1])
 print(len(n))
 
 
-n = int(input("Enter a number: "))
 
-a = 0
-b = 1
-"""
+# Fibonacci sequence
 n = int(input("Enter a number: "))
 
 a = 0
