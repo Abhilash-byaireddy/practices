@@ -1,4 +1,3 @@
-"""
 # reversing a string
 n=input("enter a number:")
 a = n[::-1]
@@ -25,6 +24,7 @@ elif b>a and b>c:
 else:
     print("c is the greatest number")
 
+# checking if a number is palindrome or not
 
 x=(input("enter any number:"))
 
@@ -33,8 +33,8 @@ if x==y:
     print(x,"is palindrome")
 else:
     print(x,"is not palindrome")
-"""
 
+# sum of digits of a number
 
 n=int(input("enter a number:"))
 total=0
@@ -42,3 +42,26 @@ while n:
     total+=n%10
     n=n//10
 print(total)
+
+#removing duplicates from a list
+
+nums=list(map(int,input("Enter a number: ")))
+result=[]
+for i in nums:
+    if i not in result:
+        result.append(i)
+print(result)
+
+
+# counting the frequency of characters in a string
+
+text=input("enter a string:")
+f={}
+for i in text:
+    if i in f:
+        f[i]+=1
+    else:
+        f[i]=1
+for c in f:
+    print(c,":",f[c])
+    
